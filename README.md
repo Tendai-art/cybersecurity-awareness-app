@@ -1,26 +1,39 @@
-# Cybersecurity Awareness App
+## ▶️ Running Locally
+Clone the repository and install dependencies:
+...
+streamlit run awareness_app.py
 
-This is my MSc Cybersecurity capstone project.  
-It is a Streamlit-based Risk Assessment Tool designed to evaluate human-factor vulnerabilities in healthcare cybersecurity.
-You can try it live here: [Launch the app](https://cybersecurity-awareness-appgit-gamwwlzetmsdvttrsvyal5.streamlit.app/)
+---
 
-## 🚀 Features
-- Interactive risk scoring based on severity, likelihood, and impact
-- Visual dashboards built with Altair
-- Alignment with HIPAA and NIST CSF standards
-- Scenario-based awareness simulations
+## 🛡️ Methodology
+- Risk scoring logic based on severity × likelihood × impact  
+- Visual dashboards for clear communication of risk levels  
+- Scenario-based simulations to improve user awareness and decision-making  
 
-## 📦 Requirements
-The app uses the following Python libraries:
-- streamlit
-- pandas
-- numpy
-- altair
+---
+
+## 👩‍💻 Contributing
+Contributions are welcome!  
+Please fork the repository and submit a pull request with improvements or new features.
+
+---
+
+## 📜 License
+This project is licensed under the MIT License.  
+You are free to use, modify, and distribute it with attribution.
+
+---
+
+## 📚 Acknowledgments
+- Quinnipiac University MSc Cybersecurity program  
+- Streamlit Community for deployment support  
+- HIPAA & NIST CSF frameworks for guiding methodology
 
 ## ▶️ Running Locally
 Clone the repository and install dependencies:
 ```bash
 pip install -r requirements.txt
 streamlit run awareness_app.py
+
 
 
